@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Bts-logo {
+    width: 50vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-left: 5px solid #9966FF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Bts-logo button {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.content {
+    width: 50vw;
+    height: 100vh;
+    color: #9966FF;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
