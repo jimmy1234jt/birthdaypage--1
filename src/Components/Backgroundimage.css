@@ -1,0 +1,15 @@
+/* BackgroundImageChanger.css */
+
+.background-image {
+    background: center/cover no-repeat;
+    transition: background 1s ease-in-out;
+    width: 50vw;
+    height: 100vh;
+  }
+  
+  @media (max-width: 750px) {
+    .background-image {
+      width: 100vw;
+    }
+  }
+  

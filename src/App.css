@@ -24,15 +24,50 @@
 .Bts-logo button {
     padding: 10px;
     margin-bottom: 50px;
+    background-color: transparent;
+    font-size: 10px;
+    border: 1px solid #9966FF;
+    color: #9966FF;
+}
+
+.content button {
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    font-size: 10px;
+    border: 1px solid #9966FF;
+    color: #9966FF;
 }
 
 .content {
     width: 50vw;
     height: 100vh;
-    color: #9966FF;
-    background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-color: black;
+}
+
+.wrapper .text {
+    font-size: 20px;
+    color: #9966FF;
+    font-family: monospace;
+    text-align: center;
+}
+
+@media (max-width:750px) {
+    .app {
+        display: flex;
+        flex-direction: column;
+    }
+    .Bts-logo{
+        width: 100vw;
+    }
+    .content{
+        width: 100vw;
+    }
+    .BG {
+        width: 100vw;
+    }
 }

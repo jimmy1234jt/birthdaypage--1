@@ -6,6 +6,7 @@ import Soekjin from "../assets/Kim-Soekjin.jpeg"
 import Taehyung from "../assets/Kim-Taehyung.jpeg"
 import Yoongi from "../assets/Min-Yoongi.jpeg"
 import Park from "../assets/Park-Jimin.jpeg"
+import "./Backgroundimage.css"
 
 class BackgroundImage extends Component {
   constructor(props) {
@@ -45,17 +46,17 @@ class BackgroundImage extends Component {
   render() {
     const currentImage = this.state.images[this.state.currentImageIndex];
 
-    const style = {
-      background: `url(${currentImage}) center/cover no-repeat`,
-      transition: 'background 1s ease-in-out', // Add a smooth transition effect
-      width: '50vw',
-      height: '100vh',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-    };
+    // const style = {
+    //   background: `url(${currentImage}) center/cover no-repeat`,
+    //   transition: 'background 1s ease-in-out', // Add a smooth transition effect
+    //   width: '50vw',
+    //   height: '100vh',
+    //   display: 'flex',
+    //   alignItems: 'center',
+    //   justifyContent: 'center',
+    // };
 
-    return <div style={style}></div>;
+    return <div className='background-image' style={{background: `url(${currentImage}) center/cover no-repeat`}}></div>;
   }
 }
 
