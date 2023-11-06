@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
 import BackgroundImage from './Components/BackgroundImage'
 import logo from "./assets/army-purple.jpg"
 // import { Typewriter } from "react-simple-typewriter"
 import { TypeAnimation } from 'react-type-animation';
 import Confetti from './Components/Confetti';
+
 
 
 
